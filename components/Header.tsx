@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { name: "Login", href: "/login" },
   { name: "Todos", href: "/todos" },
   { name: "Data USE hook", href: "/data" },
+  { name: "todoList", href: "/todolist" },
 ];
 
 const Header = () => {
