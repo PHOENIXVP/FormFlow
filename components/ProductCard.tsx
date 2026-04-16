@@ -1,9 +1,11 @@
-const ProductCard = ({ product, onClick }) => {
-    console.log("Rendered:", product.name); // debug
+const ProductCard = ({ product }) => {
+    console.log("Rendered:", product?.title); // debug
   
     return (
-      <div onClick={onClick}>
-        {product.name}
+      <div>
+        {product?.title}
       </div>
     );
   };
+
+  export default ProductCard;
